@@ -36,7 +36,7 @@ DATE     := $(shell date +%Y%m%d)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_ID=IML77 \
-    PRODUCT_NAME=triumph \
+    PRODUCT_NAME=liquid_triumph \
     TARGET_DEVICE=triumph \
     BUILD_FINGERPRINT=motorola/motorola_triumph/triumph:4.0.4/IML77/223971:user/release-keys \
     PRIVATE_BUILD_DESC="triumph-user 4.0.4 IML77 223971 release-keys" \
