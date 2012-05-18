@@ -1,7 +1,7 @@
 #
 # system.prop for triumph
 #
-ro.telephony.ril_class=LGEQualcommRIL
+ro.telephony.ril_class=TriumphRIL
 ro.telephony.ril_prl=61007
 ro.telephony.no_icc=true
 ro.ril.def.preferred.network=4
