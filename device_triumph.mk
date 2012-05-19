@@ -246,7 +246,7 @@ PRODUCT_TAGS += dalvik.gc.type-precise
 $(call inherit-product, build/target/product/full_base.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := motorola_triumph
+PRODUCT_NAME := liquid_triumph
 PRODUCT_DEVICE := triumph
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := WX435

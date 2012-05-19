@@ -27,6 +27,9 @@ PRODUCT_BRAND := Motorola
 PRODUCT_DEVICE := triumph
 PRODUCT_MODEL := WX435
 PRODUCT_MANUFACTURER := Motorola
+PRODUCT_PROPERTY_OVERRIDES += ro.modversion=liquid.triumph.$(shell date +%m%d%y).$(shell date +%H%M%S)
+
+
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := Triumph
@@ -38,8 +41,13 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_ID=IML77 \
     PRODUCT_NAME=liquid_triumph \
     TARGET_DEVICE=triumph \
+    BUILD_DISPLAY_ID="Liquid ICS v1.4" \
     BUILD_FINGERPRINT=motorola/motorola_triumph/triumph:4.0.4/IML77/223971:user/release-keys \
     PRIVATE_BUILD_DESC="triumph-user 4.0.4 IML77 223971 release-keys" \
     BUILD_NUMBER=${DATE} \
     BUILD_VERSION_TAGS=release-keys \
     TARGET_BUILD_TYPE=user
+
+# media
+PRODUCT_COPY_FILES += \
+    vendor/liquid/prebuilt/common/media/hdpi/bootanimation.zip:system/media/bootanimation.zip
