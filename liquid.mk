@@ -47,7 +47,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_NUMBER=${DATE} \
     BUILD_VERSION_TAGS=release-keys \
     TARGET_BUILD_TYPE=user
-
-# media
-PRODUCT_COPY_FILES += \
-    vendor/liquid/prebuilt/common/media/hdpi/bootanimation.zip:system/media/bootanimation.zip
