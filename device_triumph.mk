@@ -231,6 +231,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase.gmm=android-motorola \
     ro.telephony.ril.v3=datacall,signalstrength
 
+# This is essential for USB tethering
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.tethering.kb_disconnect=1
+
 # Set region
 PRODUCT_DEFAULT_LANGUAGE := en_US
 PRODUCT_DEFAULT_REGION := US
